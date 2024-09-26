@@ -9,15 +9,19 @@
 
 body {
     background-color: var(--color4);
-    font-family: "merriweather", serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 400;
     color: var(--color2);
     margin: 0;
     padding: 10px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Merriweather", serif;
+}
+
 header, main, footer {
-    max-width: 1200px-1600px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -41,9 +45,11 @@ main {
 .hero h1 {
     position: absolute;
     top: 10px;
+    left: 0;
+    right: 0;
     color: white;
-    left: 175px;
     font-size: 3em;
+    text-align: center;
 
 }
     
@@ -54,9 +60,7 @@ article {
     top: 100px;
     left: 50px;
     right: 50px;
-    font-family: "nunito", sans-serif;
-    font-size: 1.5em;
-    font-weight:700;
+    font-size: 1em;
     font-style: italic;
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
@@ -70,13 +74,8 @@ article {
    padding: 20px;
 }
 
-p {
-    float: left;
-    font-family: "merriweather", serif;
-    font-size: 1em;
-    text-align: left;
-    color: white;
-
+article p {
+    padding: 1rem;
 }
 
 
