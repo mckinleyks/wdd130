@@ -26,12 +26,6 @@ header, main, footer {
 }
 
 
-main {
-    margin: auto;
-    padding: 10px;
-}
-
-
 .hero {
     position: relative;
 }
@@ -57,7 +51,7 @@ main {
 article {
     position: absolute;
     color: white;
-    top: 100px;
+    top: 175px;
     left: 50px;
     right: 50px;
     font-size: 1em;
