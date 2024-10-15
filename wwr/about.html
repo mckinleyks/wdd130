@@ -14,41 +14,68 @@
 
 <body>
     <header>
-        <img src="images/logo.jpg" alt="Company Logo">
+        <div class = "logo">   
+            <img src="images/logo.jpg" alt="Company Logo">
+        </div>    
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
+    
     <main>
         <div class="hero">
             <img src="images/river.jpg" alt="River">
             <h1>Whitewater Rafting</h1>
             <article>
+                <h2>Our Mission</h2>
                 <img src="images/happy.jpg" alt="Happy Client" class="client_image">
                 <p>Here is where the company purpose, mission, creed or motto will go</p>
             </article>
         </div>
         
         <section>
-            <h2>History</h2>
-            <p>This is where the company history will go</p>
+            <div class="history">
+                <h2>History</h2>
+                <p>This is where the company history will go. The company has a history of fun making, memory producing and an occational inside joke history. It bonds, lifts, and splashes people together.</p>
+            </div>
         </section>
         
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting1.jpg" alt="Rafting Image 1">
-            <img src="images/rsz_rafting2.jpg" alt="Rafting Image 2">
-            <img src="images/rsz_rafting3.jpg" alt="Rafting Image 3">
-            <img src="images/rsz_rafting4.jpg" alt="Rafting Image 4">
-            <img src="images/rsz_rafting5.jpg" alt="Rafting Image 5">
+        <section class="adventure">
+                <h2 class="adventure-title">Adventure Awaits You!</h2>
+                <div class="adventure-images">
+                    <figure>
+                        <img src="images/rafting1.jpg" alt="Rafting Image 1">
+                    <figcaption>Swift Waters</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rsz_rafting2.jpg" alt="Rafting Image 2">
+                        <figcaption>The Rapids of Hell</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rsz_rafting3.jpg" alt="Rafting Image 3">
+                        <figcaption>The Scenic Route</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rsz_rafting4.jpg" alt="Rafting Image 4">
+                        <figcaption>Family Adventure</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rsz_rafting5.jpg" alt="Rafting Image 5">
+                        <figcaption>Teamwork Adventure</figcaption>
+                    </figure>
+                </div>
         </section>
     </main>
     
     <footer>
-        <p>©2024 Whitewater Rafting, McKinley Saunders</p>
+        <div class="footer-content">
+            <p class="text">©2024 Whitewater Rafting, McKinley Saunders</p>
+        </div>
         <nav class="sociallinks">
             <a href="https://instagram.com">
                 <img src="images/instagram.png" alt="Instagram">

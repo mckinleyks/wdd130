@@ -20,11 +20,59 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Merriweather", serif;
 }
 
-header, main, footer {
+.logo, header, main, footer {
     max-width: 1400px;
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 100px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    margin-left:0%;
+    border: black solid 1.5px;
+    background-color: white; 
+    
+}
+
+.links a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--color2);
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color:black;
+    font-weight: 700;
+    text-decoration: underline
+}
 
 .hero {
     position: relative;
@@ -60,7 +108,9 @@ article {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-
+article h2 {
+    text-align: center;
+}
 .hero article img {
    width: 200px;
    float: right;
@@ -70,6 +120,83 @@ article {
 
 article p {
     padding: 1rem;
+    text-align: center;
+}
+
+.history {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.history h2 {
+    margin-bottom: 10px;
+}
+
+
+.adventure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.adventure-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.adventure-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.adventure figure {
+    margin: 10px;
+    text-align: center;
+    flex: 0 1 auto;
+    
+}
+
+.adventure img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #e7e5df;
+    color: #001021;
+    position: relative;
+}
+
+.footer-content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+}
+
+.sociallinks a {
+    margin-left: 10px;
+}
+
+.sociallinks img {
+    width: 30px;
+    height: auto;
 }
 
 
