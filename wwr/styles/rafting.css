@@ -265,6 +265,95 @@ button:hover {
 
 }
 
+.heading {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.heading img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.heading h2 {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.newsletter input {
+    margin: 0 0.5em;
+    padding: 0.5em;
+}
+
+.call-to-action {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.grid-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 1.5em;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.trips-page {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.trips-page h1 {
+    border-bottom: 0.5px solid black;
+    border-radius: 0%;
+}
+
+.trip-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px
+
+}
+
+.trip {
+    flex: 1 1 calc(20%);
+    text-align: center;
+}
+
+.trip-table {
+    padding-bottom: 40px;
+    border-collapse: collapse;
+    
+}
+
+.trip-table th,
+.trip-table td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+}
+
+.trip-table tr {
+    border: 1px solid black;
+}
+
 
 footer {
     display: flex;
