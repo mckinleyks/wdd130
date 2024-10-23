@@ -25,13 +25,24 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+
+
 header {
     display: grid;
     grid-template-columns: auto 1fr;
-    padding: 25px;
+    padding: 3px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: white;
+    border-bottom: 10px double #001021;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 20px;
+    padding: 20px 0;
 }
 
 .logo {
@@ -45,6 +56,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     margin-right: 100px;
+    
 }
 
 .contact-container {
@@ -272,7 +284,6 @@ button:hover {
 }
 
 .heading img {
-    display: block;
     width: 100%;
     height: auto;
 }
@@ -303,17 +314,23 @@ button:hover {
 }
 
 .grid-layout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    padding: 1.5em;
+    padding: 1.5em; 
+    justify-content: center;
 }
 
 .grid-item {
     text-align: center;
+
 }
 
+.grid-item img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
 .trips-page {
     text-align: center;
     padding-bottom: 20px;
@@ -356,45 +373,43 @@ button:hover {
 
 
 footer {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: center;
-    padding: 10px;
-    background-color: #e7e5df;
+    padding: 5px;
+    background-color: white;
     color: #001021;
     position: relative;
+
 }
 
 .footer-content {
+    text-align: left;
+
+}
+
+.footer-link {
+    text-align: center;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    text-align: center;
 }
 
 .sociallinks {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    position: absolute;
-    right: 10px;
+
 }
+
 
 .sociallinks a {
     margin-left: 10px;
 }
-
 .sociallinks img {
     width: 30px;
     height: auto;
 }
 
-.footer-link {
-    position: absolute;
-    display: block;
-    margin-top: 50px;
-
-}
 
 
 
